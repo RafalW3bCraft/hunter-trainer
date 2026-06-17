@@ -1,0 +1,40 @@
+{
+  "n_train": 1600,
+  "n_val": 200,
+  "n_test": 200,
+  "n_vuln_classes": 19,
+  "n_severity": 5,
+  "vuln_labels": [
+    "benign",
+    "sqli",
+    "xss",
+    "ssrf",
+    "idor",
+    "open_redirect",
+    "xxe",
+    "ssti",
+    "rce",
+    "lfi",
+    "rfi",
+    "csrf",
+    "auth_bypass",
+    "info_disclosure",
+    "privilege_escalation",
+    "business_logic",
+    "race_condition",
+    "deserialization",
+    "path_traversal"
+  ],
+  "severity_labels": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "critical"
+  ],
+  "max_length": 256,
+  "tokenizer": "distilbert-base-uncased",
+  "feature_dim": 64,
+  "graph_nodes": 19,
+  "graph_edges": 40
+}
